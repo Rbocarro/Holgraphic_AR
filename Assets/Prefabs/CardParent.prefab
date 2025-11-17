@@ -121,6 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3523520984545204553}
+  - component: {fileID: 9025034192391369386}
   m_Layer: 0
   m_Name: CardParent
   m_TagString: Untagged
@@ -147,6 +148,18 @@ Transform:
   - {fileID: 9071841678215529504}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9025034192391369386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6633568213917577676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aed6c497bfad194fbe5d60418cdee50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &6705458497956653174
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +171,6 @@ GameObject:
   - component: {fileID: 9071841678215529504}
   - component: {fileID: 4120263194311562688}
   - component: {fileID: 6774664945156817403}
-  - component: {fileID: 8202903466969709137}
   m_Layer: 6
   m_Name: CardWindowBackground
   m_TagString: Untagged
@@ -237,28 +249,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8202903466969709137
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6705458497956653174}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7422174250692378197
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +260,6 @@ GameObject:
   - component: {fileID: 1804317901150048811}
   - component: {fileID: 2804941445588846268}
   - component: {fileID: 8689255145223427767}
-  - component: {fileID: 1936263454583367003}
   m_Layer: 0
   m_Name: CARD
   m_TagString: Untagged
@@ -350,28 +339,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1936263454583367003
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7422174250692378197}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7551070483004756307
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +366,7 @@ Transform:
   m_GameObject: {fileID: 7551070483004756307}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00009, y: 0, z: 0.000481}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000481}
   m_LocalScale: {x: 0.0059132148, y: 1, z: 0.0084006}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -475,15 +442,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe50d76ceb2eecd40ac00f36ee13000d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.016098488
+      value: 0.014248772
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe50d76ceb2eecd40ac00f36ee13000d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.016098488
+      value: 0.014248772
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe50d76ceb2eecd40ac00f36ee13000d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.016098488
+      value: 0.014248772
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe50d76ceb2eecd40ac00f36ee13000d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -491,11 +458,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe50d76ceb2eecd40ac00f36ee13000d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0182
+      value: -0.0167
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe50d76ceb2eecd40ac00f36ee13000d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0113
+      value: 0.0069
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe50d76ceb2eecd40ac00f36ee13000d, type: 3}
       propertyPath: m_LocalRotation.w
