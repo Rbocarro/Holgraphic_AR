@@ -1,7 +1,7 @@
 
 # Holographic AR Card 
 ![](./ReadmeAssets/UIDemo_01.png)
-For this project, I decided to create a Pokemon card visualiser in AR. i sought to replicated some of the visible characteristics of the cards such as the holographic effects seen in some of the cards as well as some parallax and stencil effects seen in some of the Digital version of cards seen in the PokemonTCG pocket game.
+For this project, I decided to create a Pokemon card visualiser in AR. I sought to replicated some of the visible characteristics of the cards such as the holographic effects seen in some of the cards as well as some parallax and stencil effects seen in some of the Digital version of cards seen in the PokemonTCG pocket game.Although there were several tutorials available to achive this, I strove to add elements such as smoke particle effects on the card borders, animated shaders and parametric controls.
 
 # Web Demo
 [Web Demo- mobile browser like google chrome recommended](https://rbocarro.github.io)
@@ -28,7 +28,7 @@ Unity’s ScriptableObject system was used to manage character data, including a
 ![](./ReadmeAssets/shaderGraph01.png)![](./ReadmeAssets/ShaderGraph02.gif)
 I used Unity’s Shader Graph to create the  scrolling background featured in the demo. The animated dot pattern is achieved through UV tiling and time-based displacement, which is then masked using an animated Simplex Noise node. A clipping threshold controls the visibility of the dots within the noise mask, producing a dynamic, organic motion effect. The grid overlay is animated in a similar manner, utilising UV tiling and displacement.
 
-## Improvements
+## References
 + [Daniel-ilett](https://github.com/daniel-ilett/shaders-holo-card)
 + [cyanilux](https://www.cyanilux.com/tutorials/holofoil-card-shader-breakdown/)
 + [Rigor Mortis Tortoise](+ [Daniel-ilett](https://github.com/daniel-ilett/shaders-holo-card))
