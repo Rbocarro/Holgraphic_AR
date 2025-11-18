@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseImage:
-        m_Texture: {fileID: 2800000, guid: f85b83e335a51594584ca200cb6fd5b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2a9141f8b255f1142b3df6ea4870a233, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -93,6 +93,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OverlayElements:
+        m_Texture: {fileID: 2800000, guid: df934b52083aa954ca86229308157702, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -120,8 +124,8 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BorderCornerRoundness: 0.05
-    - _BorderThickness: 0.044
+    - _BorderCornerRoundness: 0.046
+    - _BorderThickness: 0.059
     - _BumpScale: 1
     - _CardHeight: 0.88
     - _CardWidth: 0.63
@@ -139,7 +143,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HolofoilColorDensity: 1.17
-    - _HolofoilEffect: 0.63
+    - _HolofoilEffect: 0
     - _Holofoil_BrightnessPower: 4.6
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -156,13 +160,14 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
-    - _windowCutoutCornerRoundness: -0.01
-    - _windowCutoutHeight: 0.47
-    - _windowCutoutWidth: 0.62
-    - _windowCutoutYPositionOnCard: -0.21
+    - _isFullart: 1
+    - _windowCutoutCornerRoundness: 0.008
+    - _windowCutoutHeight: 0.429
+    - _windowCutoutWidth: 0.601
+    - _windowCutoutYPositionOnCard: -0.199
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BorderColor: {r: 0.9433962, g: 0.7990471, b: 0.0667497, a: 1}
+    - _BorderColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HolofoilPatternTiling: {r: 10, g: 10, b: 0, a: 0}
