@@ -23,7 +23,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 10197397079668374406
       m_GuidHigh: 11846475767559807338
-    m_Size: {x: 0.0635, y: 0.088644296}
+    m_Size: {x: 0.06303846, y: 0.088}
     m_SpecifySize: 1
     m_Name: M5ZarsNx_400x400
     m_Texture: {fileID: 0}
