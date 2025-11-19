@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8379162626339393193
+--- !u!114 &-8464100261839099532
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_HolographicCard
-  m_Shader: {fileID: -6465566751694194690, guid: ec28838200141da40ac5c2bb7bc0643a, type: 3}
+  m_Name: godray
+  m_Shader: {fileID: -6465566751694194690, guid: b66b4af5ba20b6747bb66b3c28454ff3, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -37,10 +37,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseImage:
-        m_Texture: {fileID: 2800000, guid: 2a9141f8b255f1142b3df6ea4870a233, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -65,20 +61,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Holofoilpattern:
-        m_Texture: {fileID: 2800000, guid: 3c5b05ba54ffb98409f3729c45a2ee03, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Holofoilpattern_01:
-        m_Texture: {fileID: 2800000, guid: 102b1d7d5bfb4ee43ae83f4180943702, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Holofoilpattern_02:
-        m_Texture: {fileID: 2800000, guid: 5a42ed55d9c8717438d51242bb43d243, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Holofoilpattern_03:
-        m_Texture: {fileID: 2800000, guid: 281893ba6a5a1984da8eb1ddc99ad52a, type: 3}
+    - _Image:
+        m_Texture: {fileID: 2800000, guid: 78b1d26d2355d50419525fcdf894f784, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -91,10 +75,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OverlayElements:
-        m_Texture: {fileID: 2800000, guid: 34b4e38217dbe4a4b986d348e6232e35, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -124,14 +104,9 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BorderCornerRoundness: 0.046
-    - _BorderThickness: 0.059
     - _BumpScale: 1
-    - _CardHeight: 0.88
-    - _CardWidth: 0.63
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _CornerRoundness: 0.079
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -142,9 +117,6 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HolofoilColorDensity: 0.69
-    - _HolofoilEffect: 0.11
-    - _Holofoil_BrightnessPower: 1.94
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -160,20 +132,11 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
-    - _isFullart: 1
-    - _windowCutoutCornerRoundness: 0.008
-    - _windowCutoutHeight: 0.429
-    - _windowCutoutWidth: 0.601
-    - _windowCutoutYPositionOnCard: -0.199
+    - _falloff: 0.069
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BorderColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HolofoilPatternTiling: {r: 10, g: 10, b: 0, a: 0}
-    - _HolofoilPatternTiling_01: {r: 5, g: 5, b: 0, a: 0}
-    - _HolofoilPatternTiling_02: {r: 5, g: 5, b: 0, a: 0}
-    - _HolofoilPatternTiling_03: {r: 5, g: 5, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
