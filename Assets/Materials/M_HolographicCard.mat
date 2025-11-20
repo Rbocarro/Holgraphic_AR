@@ -147,8 +147,8 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HolofoilColorDensity: 0.69
-    - _HolofoilEffect: 0.27
-    - _Holofoil_BrightnessPower: 5
+    - _HolofoilEffect: 2
+    - _Holofoil_BrightnessPower: 10
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -171,7 +171,7 @@ Material:
     - _windowCutoutYPositionOnCard: -0.199
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BorderColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
+    - _BorderColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HolofoilPatternTiling: {r: 10, g: 10, b: 0, a: 0}
