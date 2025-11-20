@@ -74,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Holofoilpattern_01:
-        m_Texture: {fileID: 2800000, guid: 102b1d7d5bfb4ee43ae83f4180943702, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5a42ed55d9c8717438d51242bb43d243, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Holofoilpattern_02:
@@ -107,6 +107,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularRefelections:
+        m_Texture: {fileID: 2800000, guid: 21e110f44bc570440a764a71c8be12bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -147,7 +151,9 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HolofoilColorDensity: 0.69
-    - _HolofoilEffect: 0.7
+    - _HolofoilColorDensity_01: 5
+    - _HolofoilEffect: 0.245
+    - _HolofoilPatternTiling_01: 7
     - _Holofoil_BrightnessPower: 10
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -174,6 +180,7 @@ Material:
     - _BorderColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HolofoilBaseColor_01: {r: 1, g: 0, b: 0, a: 1}
     - _HolofoilPatternTiling: {r: 10, g: 10, b: 0, a: 0}
     - _HolofoilPatternTiling_01: {r: 15, g: 15, b: 0, a: 0}
     - _HolofoilPatternTiling_02: {r: 6.7, g: 6.7, b: 0, a: 0}
