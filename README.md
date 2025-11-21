@@ -3,8 +3,12 @@
 ![](./ReadmeAssets/Holgraphic_AR.png)
 For this project, I decided to create a Pokemon card visualiser in AR. I sought to replicated some of the visible characteristics of the cards such as the holographic effects seen in some of the cards as well as a stencil effect seen in some AR applications and games. 
 
+# Demo Download
 
-# Tools Used
+[Android APK](https://github.com/Rbocarro/Holgraphic_AR/releases)
+
+
+# Tools and Techniques Used
 
 ## AR Foundation
 AR foundation was used as it provided a straightforward framework for implementing image Tracking. It was important to set the image tracking pysical size to the real world scale of a standard Pokemon TCG (63.5mm x88mm) and your gameobject to x0.01 times scale(intuitively im not sure why it does not follow the 1meter=1 unit scale)
@@ -17,6 +21,10 @@ I used a stencil-buffer window on the card to reveal the 3D model and background
 ## Holographic Shader
 ![](./ReadmeAssets/HolofoilEffect.gif)<br/>
 I used Unity’s Shader Graph to create the Holographic effect.It is primarily based off RMT's shader which uses the view direction in tangent space to offset a hue vaule by a set amount and can then by multiplied by a holofoil pattern image to achive a convincing holofoil effect. this was convertered into a subshader graph for easy reusability in the main card shader.
+
+##Stylised Specular
+![](./ReadmeAssets/specular.mp4)<br/>
+Specular reflections were faked using a premade texture that was offset based off the view angle
 
 ## Card Overlay
 Card Overlay's visual elements were created using [Pokecardmaker](https://pokecardmaker.net/) .
