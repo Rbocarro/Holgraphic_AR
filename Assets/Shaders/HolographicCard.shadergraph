@@ -202,6 +202,12 @@
     "m_GroupDatas": [
         {
             "m_Id": "f638d31c5fc54ec4b698dc7b9605f7f8"
+        },
+        {
+            "m_Id": "55099af8edfa48d79f78c661e9a478b6"
+        },
+        {
+            "m_Id": "5e031298129040699ce6f5d5b3005fbb"
         }
     ],
     "m_StickyNoteDatas": [],
@@ -926,7 +932,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
     "m_ObjectId": "00350de91b7f4b6480b86a6f10b9d124",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Sample Texture 2D",
     "m_DrawState": {
@@ -1008,7 +1014,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "018e56cab99d4cc9aa4ac5d4d26cfc0f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -1316,7 +1322,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TilingAndOffsetNode",
     "m_ObjectId": "0e9c8ff7c35644f0ade12ba399ae6848",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Tiling And Offset",
     "m_DrawState": {
@@ -1490,7 +1496,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "1668f440d016418f814f86d4bd7e396e",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -1591,7 +1597,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "1c744f69bb2648d78033dd5f37b0ef61",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -2381,7 +2387,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2Node",
     "m_ObjectId": "4dfd84c3a54f430dabee67930f28328d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Vector 2",
     "m_DrawState": {
@@ -2555,6 +2561,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "55099af8edfa48d79f78c661e9a478b6",
+    "m_Title": "Specular",
+    "m_Position": {
+        "x": -1641.999755859375,
+        "y": 637.0001220703125
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "5591f56549864297b5e17e7b329c61e8",
     "m_Id": 3,
@@ -2724,6 +2741,17 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "5e031298129040699ce6f5d5b3005fbb",
+    "m_Title": "Card Base",
+    "m_Position": {
+        "x": -867.9999389648438,
+        "y": 259.0
     }
 }
 
@@ -3325,7 +3353,7 @@
     "m_Type": "UnityEditor.ShaderGraph.ViewDirectionNode",
     "m_ObjectId": "782c11b6cf5c42639736ac7eb4d0fedf",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "View Direction",
     "m_DrawState": {
@@ -3787,7 +3815,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2Node",
     "m_ObjectId": "8fa3cedfda324248a4489eaf2979fa19",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Vector 2",
     "m_DrawState": {
@@ -4009,7 +4037,7 @@
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
     "m_ObjectId": "99bd1f1b047a4309a971fa84b61b4077",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Divide",
     "m_DrawState": {
@@ -4087,7 +4115,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "9df07539d0a8445cae8b31edd6f36e39",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -4320,7 +4348,7 @@
     "m_Type": "UnityEditor.ShaderGraph.NormalizeNode",
     "m_ObjectId": "a2b56cb87d7e4cd3a6809330c0146132",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Normalize",
     "m_DrawState": {
@@ -4421,7 +4449,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "ada7c0af731e416897398682420b7432",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -4673,7 +4701,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "b6e460d8c9b14307a00d42cd3e0a7ea7",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -4997,7 +5025,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "c0b1cfd487e94414af645abf770a4473",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -5272,7 +5300,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4Node",
     "m_ObjectId": "ce2461dea29b40cf92be4ec7a6ec19a1",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Vector 4",
     "m_DrawState": {
@@ -5391,7 +5419,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "d105cbccc1dd4b738e51acd1eb32a68f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -5649,7 +5677,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "e04261ff880f4398ae7bbd99d93372a4",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "55099af8edfa48d79f78c661e9a478b6"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -5902,7 +5930,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
     "m_ObjectId": "f267f070ebc24eff99d5dfcc01ac3738",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "5e031298129040699ce6f5d5b3005fbb"
     },
     "m_Name": "Rectangle",
     "m_DrawState": {
@@ -6039,10 +6067,10 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "f638d31c5fc54ec4b698dc7b9605f7f8",
-    "m_Title": "Foil Pattern 02",
+    "m_Title": "Foil Pattern 01",
     "m_Position": {
-        "x": -1006.0001220703125,
-        "y": -920.0000610351563
+        "x": -1005.9999389648438,
+        "y": -919.9999389648438
     }
 }
 

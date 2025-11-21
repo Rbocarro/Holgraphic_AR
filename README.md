@@ -1,37 +1,29 @@
 
 # Holographic AR Card 
-![](./ReadmeAssets/UIDemo_01.png)
+![](./ReadmeAssets/Holgraphic_AR.png)
 For this project, I decided to create a Pokemon card visualiser in AR. I sought to replicated some of the visible characteristics of the cards such as the holographic effects seen in some of the cards as well as a stencil effect seen in some AR and games. 
 
-
-# Web Demo
-[Web Demo- mobile browser like google chrome recommended](https://rbocarro.github.io)
-
-# Tracking Target
-![](./ReadmeAssets/PrimeTween01.gif)<br/>
-Use this if you do not have a pokemon card.
 
 # Tools Used
 
 ## AR Foundation
-![](./ReadmeAssets/PrimeTween01.gif)<br/>
-AR foundation was used as it provided a straightforward framework for implementing image Tacking. It was important to set the image tracking size to the real world scale of a standard Pokemon TCG (63.5 to )
+AR foundation was used as it provided a straightforward framework for implementing image Tracking. It was important to set the image tracking pysical size to the real world scale of a standard Pokemon TCG (63.5mm x88mm) and your gameobject to x0.01 times scale(intuitively im not sure why it does not follow the 1meter=1 unit scale)
 
 
 ## Stencil Shader
-![](./ReadmeAssets/ScriptableObject.png)<br/>
-Unity’s ScriptableObject system was used to manage character data, including abilities, artwork, and profile information. This allows game designers to create and modify character data directly in the Unity Editor without altering code, promoting a clear separation between data and logic, making the system highly extensible and designer-friendly.
+![](./ReadmeAssets/StencilEffect.gif)<br/>
+I used a stencil-buffer window on the card to reveal the 3D model and background elements only when viewed through the cutout.This is achived by having a dedicated stencil material that writes a reference value and the model renders only when the stencil ref value matches. In URP, the RenderObjects feature handles the stencil override for both opaque or transparent materials that are on Cardwindow layer.
 
 ## Holographic Shader
-![](./ReadmeAssets/shaderGraph01.png)![](./ReadmeAssets/ShaderGraph02.gif)
-I used Unity’s Shader Graph to create the Holographic effect.it uses the view direction node in tangent space.
+![](./ReadmeAssets/HolofoilEffect.gif)<br/>
+I used Unity’s Shader Graph to create the Holographic effect.It is primarily based off RMT's shader which uses the view direction in tangent space to offset a hue vaule by a set amount and can then by multiplied by a holofoil pattern image to achive a convincing holofoil effect. this was convertered into a subshader graph for easy reusability
 
 ## References
 + [Mimikyu Model by AlmondFeather](https://sketchfab.com/3d-models/mimikyu-ad2aaa7bb372441984f40df49854b3eb)-[Twitter](https://x.com/AlmondFeather)
-+ [Daniel-ilett](https://github.com/daniel-ilett/shaders-holo-card)
-+ [cyanilux](https://www.cyanilux.com/tutorials/holofoil-card-shader-breakdown/)
-+ [Rigor Mortis Tortoise](https://www.youtube.com/watch?v=rYsWYjHzaMY&t=1s)
-+ [ameye.dev](https://ameye.dev/notes/holographic-card-shader/)
++ [Daniel-ilett - Holographic Foil Cards with Shader Graph in Unity URP](https://github.com/daniel-ilett/shaders-holo-card)
++ [cyanilux - Holofoil Card Shader Breakdown](https://www.cyanilux.com/tutorials/holofoil-card-shader-breakdown/)
++ [Rigor Mortis Tortoise - Holographic Card Tutorial](https://www.youtube.com/watch?v=rYsWYjHzaMY)
++ [ameye.dev - Holographic Card Shader](https://ameye.dev/notes/holographic-card-shader/)
 
 
 
