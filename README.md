@@ -23,7 +23,7 @@ I used a stencil-buffer window on the card to reveal the 3D model and background
 I used Unity’s Shader Graph to create the Holographic effect.It is primarily based off RMT's shader which uses the view direction in tangent space to offset a hue vaule by a set amount and can then by multiplied by a holofoil pattern image to achive a convincing holofoil effect. this was convertered into a subshader graph for easy reusability in the main card shader.
 
 ##Stylised Specular
-![](./ReadmeAssets/specular.mp4)<br/>
+![](./ReadmeAssets/specular.gif)<br/>
 Specular reflections were faked using a premade texture that was offset based off the view angle.
 
 ## Card Overlay
