@@ -24,7 +24,7 @@ I used Unity’s Shader Graph to create the Holographic effect.It is primarily b
 
 ##Stylised Specular
 ![](./ReadmeAssets/specular.mp4)<br/>
-Specular reflections were faked using a premade texture that was offset based off the view angle
+Specular reflections were faked using a premade texture that was offset based off the view angle.
 
 ## Card Overlay
 Card Overlay's visual elements were created using [Pokecardmaker](https://pokecardmaker.net/) .
