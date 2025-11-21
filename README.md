@@ -1,7 +1,7 @@
 
 # Holographic AR Card 
 ![](./ReadmeAssets/Holgraphic_AR.png)
-For this project, I decided to create a Pokemon card visualiser in AR. I sought to replicated some of the visible characteristics of the cards such as the holographic effects seen in some of the cards as well as a stencil effect seen in some AR and games. 
+For this project, I decided to create a Pokemon card visualiser in AR. I sought to replicated some of the visible characteristics of the cards such as the holographic effects seen in some of the cards as well as a stencil effect seen in some AR applications and games. 
 
 
 # Tools Used
@@ -16,10 +16,13 @@ I used a stencil-buffer window on the card to reveal the 3D model and background
 
 ## Holographic Shader
 ![](./ReadmeAssets/HolofoilEffect.gif)<br/>
-I used Unity’s Shader Graph to create the Holographic effect.It is primarily based off RMT's shader which uses the view direction in tangent space to offset a hue vaule by a set amount and can then by multiplied by a holofoil pattern image to achive a convincing holofoil effect. this was convertered into a subshader graph for easy reusability
+I used Unity’s Shader Graph to create the Holographic effect.It is primarily based off RMT's shader which uses the view direction in tangent space to offset a hue vaule by a set amount and can then by multiplied by a holofoil pattern image to achive a convincing holofoil effect. this was convertered into a subshader graph for easy reusability in the main card shader.
+
+## Card Overlay
+Card Overlay's visual elements were created using [Pokecardmaker](https://pokecardmaker.net/) .
 
 ## References
-+ [Mimikyu Model by AlmondFeather](https://sketchfab.com/3d-models/mimikyu-ad2aaa7bb372441984f40df49854b3eb)-[Twitter](https://x.com/AlmondFeather)
++ [Mimikyu Model by AlmondFeather](https://sketchfab.com/3d-models/mimikyu-ad2aaa7bb372441984f40df49854b3eb) - [Twitter](https://x.com/AlmondFeather)
 + [Daniel-ilett - Holographic Foil Cards with Shader Graph in Unity URP](https://github.com/daniel-ilett/shaders-holo-card)
 + [cyanilux - Holofoil Card Shader Breakdown](https://www.cyanilux.com/tutorials/holofoil-card-shader-breakdown/)
 + [Rigor Mortis Tortoise - Holographic Card Tutorial](https://www.youtube.com/watch?v=rYsWYjHzaMY)
